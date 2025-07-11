@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aluguel de Bot WhatsApp | Bryx Bot - Automatize e Otimize</title>
+  <meta name="description" content="Alugue o Bryx Bot para WhatsApp e automatize mensagens, comandos, jogos, sistema de moedas e muito mais. Hospedagem 24h e painel de controle completo." />
+  <meta name="keywords" content="bot whatsapp, aluguel de bot, bryx bot, automação whatsapp, bot para grupos, inteligência artificial whatsapp, chatbot" />
+  <meta name="author" content="Bruno Souza | Bryx Bot" />
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon"> 
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'dark-purple': '#0f0c29',
+            'medium-purple': '#302b63',
+            'light-purple': '#24243e',
+            'neon-cyan': '#0ff', 
+            'neon-green': '#0f0',
+            'neon-pink': '#f0f', 
+            'neon-yellow': '#ff0', /* Nova cor neon para destaque */
+          }
+        }
+      }
+    }
+  </script>
+
+  <link rel="stylesheet" href="style.css"> 
+</head>
+<body class="min-h-screen flex flex-col items-center p-6">
+
+  <header class="w-full text-center my-8 z-10">
+    <h1 class="text-5xl md:text-6xl font-extrabold neon-text leading-tight">🤖 Bryx Bot</h1>
+    <p class="text-xl md:text-2xl mt-4 text-gray-300">Seu parceiro definitivo para automatizar o WhatsApp.</p>
+    <nav class="mt-8 text-lg">
+      <a href="#vantagens" class="text-white hover:text-neon-cyan mx-3 md:mx-4 transition-colors duration-300">Vantagens</a>
+      <a href="#como-funciona" class="text-white hover:text-neon-cyan mx-3 md:mx-4 transition-colors duration-300">Como Funciona</a>
+      <a href="#diferenciais" class="text-white hover:text-neon-cyan mx-3 md:mx-4 transition-colors duration-300">Diferenciais</a>
+      <a href="#aplicacoes" class="text-white hover:text-neon-cyan mx-3 md:mx-4 transition-colors duration-300">Aplicações</a>
+      <a href="#recursos-detalhados" class="text-white hover:text-neon-cyan mx-3 md:mx-4 transition-colors duration-300">Recursos</a>
+      <a href="#integracoes" class="text-white hover:text-neon-cyan mx-3 md:mx-4 transition-colors duration-300">Integrações</a>
+      <a href="#seguranca" class="text-white hover:text-neon-cyan mx-3 md:mx-4 transition-colors duration-300">Segurança</a>
+      <a href="#planos" class="text-white hover:text-neon-cyan mx-3 md:mx-4 transition-colors duration-300">Planos</a>
+      <a href="#faq" class="text-white hover:text-neon-cyan mx-3 md:mx-4 transition-colors duration-300">FAQ</a>
+      <a href="#suporte" class="text-white hover:text-neon-cyan mx-3 md:mx-4 transition-colors duration-300">Suporte</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="vantagens" class="glass rounded-2xl p-8 max-w-4xl w-full text-center mb-10">
+      <h2 class="text-3xl font-semibold mb-6 text-neon-cyan">🌟 Por que escolher o Bryx Bot?</h2>
+      <ul class="text-left list-disc list-inside text-lg text-gray-200 grid md:grid-cols-2 gap-4">
+        <li class="flex items-start"><span class="text-neon-green mr-2 mt-1">✨</span><p><strong>Respostas Automáticas Inteligentes:</strong> Configure respostas para mensagens específicas e melhore seu atendimento.</p></li>
+        <li class="flex items-start"><span class="text-neon-green mr-2 mt-1">⚡</span><p><strong>Comandos Personalizados:</strong> Crie comandos únicos para interações específicas, otimizando fluxos de trabalho.</p></li>
+        <li class="flex items-start"><span class="text-neon-green mr-2 mt-1">👥</span><p><strong>Gestão de Grupos Eficiente:</strong> Envio automático de mensagens, boas-vindas e moderação para seus grupos.</p></li>
+        <li class="flex items-start"><span class="text-neon-green mr-2 mt-1">🎮</span><p><strong>Sistema de Moedas e Jogos:</strong> Engaje sua comunidade e clientes com funcionalidades divertidas e interativas.</p></li>
+        <li class="flex items-start"><span class="text-neon-green mr-2 mt-1">🏆</span><p><strong>Ranking e Sorteios Integrados:</strong> Crie competições e distribua prêmios no seu grupo de forma automatizada.</p></li>
+        <li class="flex items-start"><span class="text-neon-green mr-2 mt-1">📊</span><p><strong>Painel de Controle Intuitivo:</strong> Gerencie seu bot com facilidade através de uma interface web amigável e completa.</p></li>
+        <li class="flex items-start"><span class="text-neon-green mr-2 mt-1">🔗</span><p><strong>Integração via API e Cookies:</strong> Flexibilidade total para suas necessidades avançadas e conexão com outros sistemas.</p></li>
+        <li class="flex items-start"><span class="text-neon-green mr-2 mt-1">⏰</span><p><strong>Hospedagem 24/7:</strong> Seu bot sempre online e disponível, garantindo interações contínuas e sem falhas.</p></li>
+      </ul>
+    </section>
+
+    ---
+
+    <section id="como-funciona" class="glass rounded-2xl p-8 max-w-4xl w-full text-center mb-10">
+      <h2 class="text-3xl font-semibold mb-6 text-neon-cyan">🚀 Como o Bryx Bot Funciona? É Simples!</h2>
+      <p class="text-lg text-gray-200 mb-8">Nós tornamos o processo de ter um bot no WhatsApp o mais fácil e rápido possível para você.</p>
+      <div class="how-it-works-grid">
+        <div class="how-it-works-item">
+          <div class="step-number">1</div>
+          <h4>Escolha seu Plano</h4>
+          <p>Navegue pelos nossos planos e selecione o que melhor se adapta às suas necessidades e orçamento.</p>
+        </div>
+        <div class="how-it-works-item">
+          <div class="step-number">2</div>
+          <h4>Realize o Pagamento</h4>
+          <p>Pague de forma rápida e segura via Pix. Envie o comprovante para nosso WhatsApp para agilizar a ativação.</p>
+        </div>
+        <div class="how-it-works-item">
+          <div class="step-number">3</div>
+          <h4>Configuração e Ativação</h4>
+          <p>Nossa equipe cuidará da configuração inicial do seu bot e o deixará online em poucas horas.</p>
+        </div>
+        <div class="how-it-works-item">
+          <div class="step-number">4</div>
+          <h4>Aproveite seu Bot!</h4>
+          <p>Seu Bryx Bot está pronto! Comece a automatizar suas interações e a otimizar seu tempo no WhatsApp.</p>
+        </div>
+      </div>
+    </section>
+
+    ---
+
+    <section id="diferenciais" class="glass rounded-2xl p-8 max-w-4xl w-full text-center mb-10">
+        <h2 class="text-3xl font-semibold mb-6 text-neon-yellow">💎 Nossos Diferenciais: O Que Nos Torna Únicos</h2>
+        <p class="text-lg text-gray-200 mb-8">No mercado de automação, o Bryx Bot se destaca por oferecer:</p>
+        <div class="space-y-4">
+            <div class="feature-item">
+                <span class="icon">✨</span>
+                <div class="text">
+                    <h4>**Personalização Exclusiva**</h4>
+                    <p>Desenvolvemos funções sob medida para o seu negócio, garantindo que o bot atenda exatamente às suas necessidades.</p>
+                </div>
+            </div>
+            <div class="feature-item">
+                <span class="icon">🚀</span>
+                <div class="text">
+                    <h4>**Suporte Ágil e Humano**</h4>
+                    <p>Nossa equipe está sempre pronta para ajudar, com atendimento rápido e personalizado via WhatsApp e e-mail.</p>
+                </div>
+            </div>
+            <div class="feature-item">
+                <span class="icon">📈</span>
+                <div class="text">
+                    <h4>**Foco em Resultados**</h4>
+                    <p>Nosso objetivo é que seu bot traga retorno real: mais engajamento, mais leads e mais vendas.</p>
+                </div>
+            </div>
+            <div class="feature-item">
+                <span class="icon">🔒</span>
+                <div class="text">
+                    <h4>**Segurança e Confiabilidade**</h4>
+                    <p>Garantimos a proteção dos seus dados e a estabilidade do seu bot, com servidores dedicados 24/7.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    ---
+
+    <section id="aplicacoes" class="glass rounded-2xl p-8 max-w-4xl w-full text-center mb-10">
+        <h2 class="text-3xl font-semibold mb-6 text-neon-cyan">💼 Onde o Bryx Bot Pode Ser Usado?</h2>
+        <p class="text-lg text-gray-200 mb-8">Nosso bot é versátil e pode ser aplicado em diversas áreas para otimizar suas operações:</p>
+        <div class="space-y-4">
+            <div class="application-item">
+                <span class="icon">🛒</span>
+                <div class="text">
+                    <h4>E-commerce e Vendas Online</h4>
+                    <p>Automação de pedidos, status de entrega, respostas a FAQs de produtos e suporte ao cliente.</p>
+                </div>
+            </div>
+            <div class="application-item">
+                <span class="icon">🧑‍💻</span>
+                <div class="text">
+                    <h4>Atendimento ao Cliente</h4>
+                    <p>Respostas rápidas, triagem de chamados, agendamentos e suporte 24/7, liberando sua equipe.</p>
+                </div>
+            </div>
+            <div class="application-item">
+                <span class="icon">🎓</span>
+                <div class="text">
+                    <h4>Educação e Treinamento</h4>
+                    <p>Envio de materiais, lembretes de aulas, respostas a dúvidas de alunos e gestão de matrículas.</p>
+                </div>
+            </div>
+            <div class="application-item">
+                <span class="icon">🎉</span>
+                <div class="text">
+                    <h4>Comunidades e Eventos</h4>
+                    <p>Engajamento de membros, envio de avisos, informações sobre eventos e jogos interativos.</p>
+                </div>
+            </div>
+            <div class="application-item">
+                <span class="icon">📈</span>
+                <div class="text">
+                    <h4>Marketing e Geração de Leads</h4>
+                    <p>Coleta de informações, envio de promoções, qualificação de leads e nutrição de contatos.</p>
+                </div>
+            </div>
+            <div class="application-item">
+                <span class="icon">🌐</span>
+                <div class="text">
+                    <h4>Negócios Locais e Serviços</h4>
+                    <p>Agendamento de serviços, informações de horário, cardápios e respostas a perguntas frequentes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    ---
+
+    <section id="recursos-detalhados" class="glass rounded-2xl p-8 max-w-4xl w-full text-center mb-10">
+        <h2 class="text-3xl font-semibold mb-6 text-neon-pink">⚙️ Recursos Detalhados do Bryx Bot</h2>
+        <p class="text-lg text-gray-200 mb-8">Explore a fundo as funcionalidades que impulsionam a performance do seu bot:</p>
+        <div class="grid md:grid-cols-2 gap-6">
+            <div class="feature-item">
+                <span class="icon">💬</span>
+                <div class="text">
+                    <h4>**Automação de Mensagens**</h4>
+                    <p>Configure saudações, respostas a palavras-chave, mensagens de ausência e disparos programados para grupos e contatos.</p>
+                </div>
+            </div>
+            <div class="feature-item">
+                <span class="icon">✍️</span>
+                <div class="text">
+                    <h4>**Criação de Comandos Personalizados**</h4>
+                    <p>Defina comandos com prefixos (ex: `/menu`, `!ajuda`) para acionar ações específicas, como envio de informações, links ou arquivos.</p>
+                </div>
+            </div>
+            <div class="feature-item">
+                <span class="icon">📊</span>
+                <div class="text">
+                    <h4>**Painel de Controle Amigável**</h4>
+                    <p>Gerencie todas as configurações do seu bot, como mensagens, comandos, usuários e estatísticas, de forma visual e intuitiva.</p>
+                </div>
+            </div>
+            <div class="feature-item">
+                <span class="icon">🎲</span>
+                <div class="text">
+                    <h4>**Sistema de Moedas e Economia Virtual**</h4>
+                    <p>Crie uma economia dentro do seu grupo com moedas virtuais, trocas e rankings para engajar a comunidade.</p>
+                </div>
+            </div>
+            <div class="feature-item">
+                <span class="icon">🎁</span>
+                <div class="text">
+                    <h4>**Gerenciamento de Sorteios e Prêmios**</h4>
+                    <p>Realize sorteios automáticos entre os membros do grupo e distribua prêmios de forma justa e transparente.</p>
+                </div>
+            </div>
+            <div class="feature-item">
+                <span class="icon">🛡️</span>
+                <div class="text">
+                    <h4>**Recursos de Moderação de Grupo**</h4>
+                    <p>Ferramentas para expulsar membros, silenciar, aplicar regras automaticamente e manter seu grupo organizado.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    ---
+
+    <section id="integracoes" class="glass rounded-2xl p-8 max-w-4xl w-full text-center mb-10">
+        <h2 class="text-3xl font-semibold mb-6 text-neon-cyan">🔗 Integrações: Conecte o Bryx Bot ao Seu Ecossistema</h2>
+        <p class="text-lg text-gray-200 mb-8">Maximize o potencial do seu bot conectando-o a outras plataformas essenciais para o seu negócio:</p>
+        <div class="grid md:grid-cols-2 gap-6">
+            <div class="integration-item">
+                <span class="icon">☁️</span>
+                <div class="text">
+                    <h4>**APIs e Webhooks Personalizados**</h4>
+                    <p>Envie e receba dados para/de sistemas externos, CRM, planilhas e plataformas de e-mail marketing.</p>
+                </div>
+            </div>
+            <div class="integration-item">
+                <span class="icon">💾</span>
+                <div class="text">
+                    <h4>**Google Sheets / Excel Online**</h4>
+                    <p>Sincronize dados de usuários, leads ou informações de pedidos diretamente com suas planilhas.</p>
+                </div>
+            </div>
+            <div class="integration-item">
+                <span class="icon">🛒</span>
+                <div class="text">
+                    <h4>**Plataformas de E-commerce (Sob Consulta)**</h4>
+                    <p>Integrações personalizadas com Shopify, WooCommerce e outras para automação de vendas e atendimento.</p>
+                </div>
+            </div>
+            <div class="integration-item">
+                <span class="icon">📧</span>
+                <div class="text">
+                    <h4>**Sistemas de E-mail Marketing**</h4>
+                    <p>Adicione automaticamente novos contatos do WhatsApp às suas listas de e-mail marketing.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    ---
+
+    <section id="seguranca" class="glass rounded-2xl p-8 max-w-4xl w-full text-center mb-10">
+        <h2 class="text-3xl font-semibold mb-6 text-neon-yellow">🔒 Segurança e Confiabilidade: Sua Informação Protegida</h2>
+        <p class="text-lg text-gray-200 mb-8">Priorizamos a segurança dos seus dados e a estabilidade do serviço. Com o Bryx Bot, você tem:</p>
+        <div class="space-y-4">
+            <div class="security-item">
+                <span class="icon">🛡️</span>
+                <div class="text">
+                    <h4>**Hospedagem Dedicada e Segura**</h4>
+                    <p>Seu bot roda em servidores de alta performance, monitorados 24/7, garantindo uptime e estabilidade.</p>
+                </div>
+            </div>
+            <div class="security-item">
+                <span class="icon">⚙️</span>
+                <div class="text">
+                    <h4>**Infraestrutura Robusta**</h4>
+                    <p>Nossos sistemas são projetados para lidar com grande volume de mensagens e interações sem falhas.</p>
+                </div>
+            </div>
+            <div class="security-item">
+                <span class="icon">🔐</span>
+                <div class="text">
+                    <h4>**Proteção de Dados Pessoais**</h4>
+                    <p>Seguimos as melhores práticas de segurança para proteger as informações dos seus usuários e do seu negócio.</p>
+                </div>
+            </div>
+            <div class="security-item">
+                <span class="icon">🔄</span>
+                <div class="text">
+                    <h4>**Backups Regulares**</h4>
+                    <p>Seus dados e configurações são salvos periodicamente para garantir a recuperação em caso de imprevistos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    ---
+
+    <section id="planos" class="my-8 w-full max-w-6xl grid md:grid-cols-3 gap-8">
+      <div class="glass rounded-3xl p-8 text-center plan-card flex flex-col justify-between">
+        <div>
+          <h3 class="text-2xl font-bold mb-4 text-green-400">Plano Básico</h3>
+          <p class="text-4xl font-extrabold text-green-400">R$ 15<span class="text-xl font-normal">/mês</span></p>
+          <p class="text-md text-gray-400 mt-4">Ideal para quem busca automação simples e eficaz.</p>
+          <ul class="text-left text-sm text-gray-300 mt-4 space-y-2 list-none px-0">
+            <li class="flex items-center"><span class="text-green-400 mr-2">✔️</span>Auto-respostas e comandos essenciais</li>
+            <li class="flex items-center"><span class="text-green-400 mr-2">✔️</span>Suporte básico a grupos</li>
+            <li class="flex items-center"><span class="text-green-400 mr-2">✔️</span>Hospedagem 24h</li>
+            <li class="flex items-center opacity-50"><span class="text-gray-500 mr-2">❌</span>Jogos e moedas</li>
+            <li class="flex items-center opacity-50"><span class="text-gray-500 mr-2">❌</span>Painel de controle</li>
+            <li class="flex items-center opacity-50"><span class="text-gray-500 mr-2">❌</span>Integração API</li>
+          </ul>
+        </div>
+        <button onclick="alugar('Plano Básico')" class="btn-neon w-full mt-6">Alugar Plano Básico</button>
+      </div>
+
+      <div class="glass rounded-3xl p-8 text-center border-4 border-cyan-400 plan-card flex flex-col justify-between relative overflow-hidden">
+        <span class="absolute top-0 right-0 bg-cyan-400 text-dark-purple text-xs font-bold px-3 py-1 rounded-bl-lg">MAIS POPULAR!</span>
+        <div>
+          <h3 class="text-2xl font-bold mb-4 text-cyan-400">Plano Avançado</h3>
+          <p class="text-4xl font-extrabold text-cyan-400">R$ 30<span class="text-xl font-normal">/mês</span></p>
+          <p class="text-md text-gray-400 mt-4">Perfeito para engajar sua comunidade e impulsionar interações.</p>
+          <ul class="text-left text-sm text-gray-300 mt-4 space-y-2 list-none px-0">
+            <li class="flex items-center"><span class="text-cyan-400 mr-2">✔️</span>Tudo do Plano Básico</li>
+            <li class="flex items-center"><span class="text-cyan-400 mr-2">✔️</span>Jogos interativos e sistema de moedas</li>
+            <li class="flex items-center"><span class="text-cyan-400 mr-2">✔️</span>Ranking de usuários e sorteios</li>
+            <li class="flex items-center"><span class="text-cyan-400 mr-2">✔️</span>Suporte prioritário via WhatsApp</li>
+            <li class="flex items-center opacity-50"><span class="text-gray-500 mr-2">❌</span>Painel de controle</li>
+            <li class="flex items-center opacity-50"><span class="text-gray-500 mr-2">❌</span>Integração API</li>
+          </ul>
+        </div>
+        <button onclick="alugar('Plano Avançado')" class="btn-neon w-full mt-6">Alugar Plano Avançado</button>
+      </div>
+
+      <div class="glass rounded-3xl p-8 text-center plan-card flex flex-col justify-between">
+   
